@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: black;
+}
+.header{
+  text-align: center;
+  padding: 20px;
+}
+.about-header{
+  color: white;
+}
+.back-link{
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+.home{
+  background-color: orange;
+  text-decoration: none;
+  border-radius: 20px;
+  color: black;
+  padding: 2px;
+}
+.gallery img{
+  width: 50px;
+}

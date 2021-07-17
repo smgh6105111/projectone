@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.head{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.head-name{
+  color: white;
+}
+body{
+  background-color: rgba(0,0,0,.8);
+}
+
+.navbar{
+  text-align: center;
+  background: rgba(0,0,0,.2);
+  border-radius: 5px;
+}
+.li-nav{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+.li-nav a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
+.a-navbar{
+  text-decoration: none;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
+
+.mega{
+  position: absolute;
+  left: -999em;
+  background-color: rgba(0,0,0,.3);
+  border-radius: 5px;
+  box-shadow: 0 7px 15px white;
+  margin-right: 10px;
+}
+.mega li{
+  color: white;
+  list-style: none;
+  padding: 10px;
+}
+
+.li-nav:hover .mega{
+  left: auto;
+}
+.img img{
+  width: 50px;
+}
+.p{
+  color: white;
+  text-align: center;
+}
+.p p{
+  margin: 20px;
+}
+
+.content{
+  display: flex;
+}
+
+
+.flexchild{
+  flex: 1;
+}
+
+.content li{
+  background-color: skyblue;
+  border-radius: 5px;
+  padding: 19px;
+  margin: 0 15px 20px;
+  border: 1px solid white;
+  box-shadow: 0 15px 5px rgba(0,0,0,.8);
+  
+}
+.flexchild p{
+  background: gray;
+  border-radius: 5px;
+  height: 380px;
+  padding: 5px;
+  margin: 0 2px;
+  border: 1px solid white;
+  box-shadow: 0 15px 5px rgba(0,0,0,.8);
+}
+
+.flexchild:first-child{
+  margin-right: 5px;
+}
